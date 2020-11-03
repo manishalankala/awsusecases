@@ -121,3 +121,5 @@ customregion = "us-east-1"
 ```
 
 Try to access in Public IPv4 address in browser ( if doesn't allow then instance security allow inbound rule 0.0.0.0/0  )
+
+
