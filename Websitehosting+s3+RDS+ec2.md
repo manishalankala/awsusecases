@@ -54,4 +54,8 @@ Go to s3 for creating Bucket
 
 ![image](https://user-images.githubusercontent.com/33985509/98021411-985f0a80-1e04-11eb-8097-230040d32c61.png)
 
+
 ![image](https://user-images.githubusercontent.com/33985509/98021532-b3317f00-1e04-11eb-8bf5-0e3ec42d6a26.png)
+
+
+
