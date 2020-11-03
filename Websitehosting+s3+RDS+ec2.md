@@ -123,3 +123,6 @@ customregion = "us-east-1"
 Try to access in Public IPv4 address in browser ( if doesn't allow then instance security allow inbound rule 0.0.0.0/0  )
 
 
+if we have a domain name of our own add this in Route 53 and copy the name servers (4) in your domain registered
+
+add a record with ip of instance and the try to browse the url in browser
