@@ -5,6 +5,8 @@
 ![image](https://user-images.githubusercontent.com/33985509/98019449-0bb34d00-1e02-11eb-9219-63881789c485.png)
 
 
+## RDS
+
 create database
 
 ![image](https://user-images.githubusercontent.com/33985509/98019518-22f23a80-1e02-11eb-8638-a788099d2e00.png)
@@ -58,4 +60,23 @@ Go to s3 for creating Bucket
 ![image](https://user-images.githubusercontent.com/33985509/98021532-b3317f00-1e04-11eb-8bf5-0e3ec42d6a26.png)
 
 
+## EC2 
 
+Got to ec2
+
+![image](https://user-images.githubusercontent.com/33985509/98022203-99dd0280-1e05-11eb-9b44-8650dd3400b1.png)
+
+
+![image](https://user-images.githubusercontent.com/33985509/98022158-8a5db980-1e05-11eb-8411-cf8b9dc714eb.png)
+
+
+![image](https://user-images.githubusercontent.com/33985509/98022655-2a1b4780-1e06-11eb-9b40-99978a084ceb.png)
+
+
+![image](https://user-images.githubusercontent.com/33985509/98022781-533bd800-1e06-11eb-85bf-078b92f05369.png)
+
+
+![image](https://user-images.githubusercontent.com/33985509/98022868-7070a680-1e06-11eb-9dd0-be15319e3599.png)
+
+
+![image](https://user-images.githubusercontent.com/33985509/98022959-8ed6a200-1e06-11eb-8cdb-dc89083b6265.png)
