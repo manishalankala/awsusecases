@@ -1,5 +1,17 @@
 
 
+Required
+
+1. Domain url
+2. RDS
+3. S3
+4. Route 53
+5. IAM
+
+
+
+
+
 
 
 ![image](https://user-images.githubusercontent.com/33985509/98019449-0bb34d00-1e02-11eb-9219-63881789c485.png)
