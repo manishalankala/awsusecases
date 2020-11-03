@@ -94,3 +94,30 @@ Got to ec2
 ![image](https://user-images.githubusercontent.com/33985509/98024222-47e9ac00-1e08-11eb-9389-cd43fc39dfb1.png)
 
 
+Go to RDS copy the url
+
+![image](https://user-images.githubusercontent.com/33985509/98029501-e3cae600-1e0f-11eb-8dc8-add462de77c5.png)
+
+
+![image](https://user-images.githubusercontent.com/33985509/98029473-d3b30680-1e0f-11eb-9386-ba2541732e08.png)
+
+create database cabin1;
+
+![image](https://user-images.githubusercontent.com/33985509/98030186-f42f9080-1e10-11eb-87fe-4f0d94f888d7.png)
+
+git clone https://github.com/yeshu4/aws-code
+
+
+changes in config.py
+
+```
+customhost = "company1.c767m53wdolk.us-east-1.rds.amazonaws.com"
+customuser = "admin"
+custompass = "admin123"
+customdb = "cabin1"
+custombucket = "bucketcompany1"
+customregion = "us-east-1"
+
+```
+
+Try to access in Public IPv4 address in browser ( if doesn't allow then instance security allow inbound rule 0.0.0.0/0  )
