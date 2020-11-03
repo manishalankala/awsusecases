@@ -80,3 +80,17 @@ Got to ec2
 
 
 ![image](https://user-images.githubusercontent.com/33985509/98022959-8ed6a200-1e06-11eb-8cdb-dc89083b6265.png)
+
+
+![image](https://user-images.githubusercontent.com/33985509/98023124-c47b8b00-1e06-11eb-811f-22ab7ac2dae6.png)
+
+
+![image](https://user-images.githubusercontent.com/33985509/98023996-f7724e80-1e07-11eb-8701-f87126e2cc7f.png)
+
+
+![image](https://user-images.githubusercontent.com/33985509/98024134-2be60a80-1e08-11eb-9625-e4f74ca8ed9b.png)
+
+
+![image](https://user-images.githubusercontent.com/33985509/98024222-47e9ac00-1e08-11eb-9389-cd43fc39dfb1.png)
+
+
