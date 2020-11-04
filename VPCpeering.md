@@ -61,3 +61,9 @@ VPC-C : 192.168.0.0/16
 
 
 if we have other location similar way we have to add it here.
+
+
+![image](https://user-images.githubusercontent.com/33985509/98051139-8779bd80-1e33-11eb-9113-97a3df46e25d.png)
+
+
+![image](https://user-images.githubusercontent.com/33985509/98051246-bb54e300-1e33-11eb-8932-e43044e637c7.png)
