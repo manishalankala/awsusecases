@@ -1,6 +1,26 @@
 
 
 
+# AWS Freertos
+
+https://aws.amazon.com/freertos/
+
+
+# Aws Greengrass
+
+https://aws.amazon.com/greengrass/
+
+
+# AWS Iot Policies
+
+https://docs.aws.amazon.com/iot/latest/developerguide/iot-policies.html
+
+
+# Mqtt protocol
+
+https://mqtt.org/
+
+
 
 # Reference screen prints :
 
