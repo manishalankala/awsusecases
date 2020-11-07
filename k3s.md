@@ -2,7 +2,7 @@
 
 
 
-Reference screen prints :
+# Reference screen prints :
 
 
 ![image](https://user-images.githubusercontent.com/33985509/98452431-97551280-214f-11eb-84a5-d38d3a4620de.png)
@@ -32,3 +32,23 @@ Reference screen prints :
 ![image](https://user-images.githubusercontent.com/33985509/98452486-19ddd200-2150-11eb-9434-e31252e58742.png)
 
 
+
+
+
+# Ec2
+
+![image](https://user-images.githubusercontent.com/33985509/98452583-e51e4a80-2150-11eb-9764-b5ee34fc6e66.png)
+
+![image](https://user-images.githubusercontent.com/33985509/98452594-fb2c0b00-2150-11eb-90ac-9b645e4f921d.png)
+
+![image](https://user-images.githubusercontent.com/33985509/98452720-1ea38580-2152-11eb-8604-3ebb23811d98.png)
+
+# RDS
+
+![image](https://user-images.githubusercontent.com/33985509/98452742-51e61480-2152-11eb-8534-7976c8f9bcea.png)
+
+
+![image](https://user-images.githubusercontent.com/33985509/98452769-7f32c280-2152-11eb-9042-cd4da8767aed.png)
+
+
+VPC is default and autoscaling off
