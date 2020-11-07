@@ -19,11 +19,9 @@ A service should be created with type ExternalIP
 Weblayer pods should be exposed as a NodePort service.
 
 
-
-
-  - Readiness Probe: Sometimes, pods are temporarily unable to serve traffic. For example pods need to load large data or configuration files during startup, or depend on external services like RDS after startup. In such cases we shouldn't kill the Pod, but we don't want to send it requests either. Kubernetes provied Readiness probes to detect and mitiagate these situations.
+# Readiness Probe: Sometimes, pods are temporarily unable to serve traffic. For example pods need to load large data or configuration files during startup, or depend on external services like RDS after startup. In such cases we shouldn't kill the Pod, but we don't want to send it requests either. Kubernetes provied Readiness probes to detect and mitiagate these situations.
   
-  - Liveness Probe: Many pods running for long periods of time eventually transition to broken status, and cannot recover except by being restarted. Using Liveness probes we can detect and remedy such situations.
+# Liveness Probe: Many pods running for long periods of time eventually transition to broken status, and cannot recover except by being restarted. Using Liveness probes we can detect and remedy such situations.
 
 ```
 
