@@ -27,6 +27,8 @@ ansible_host_key_checking=FALSE
 
 ```
 
+```
+
 - hosts: "ProductionInstances"
   tasks: 
    - name: Configuring Docker Repository
@@ -93,3 +95,5 @@ ansible_host_key_checking=FALSE
          - "8888:80"
        volumes: 
          - /root/pv:/usr/local/apache2/htdocs
+
+```
