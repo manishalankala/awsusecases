@@ -4,6 +4,8 @@
 
 https://k3s.io/
 
+![image](https://user-images.githubusercontent.com/33985509/98454977-2885b280-216b-11eb-8617-7e8a0f3a5047.png)
+
 
 K3s is officially supported and tested on the following operating systems and their subsequent non-major releases:
 
