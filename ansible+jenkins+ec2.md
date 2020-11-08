@@ -1,5 +1,18 @@
 
 
+Required:
+
+Ec2 - ubuntu
+
+Ansible (inventory file, playbook)
+
+Jenkins (Plugins)
+
+
+
+
+
+
 
 Instance1: devserver
 
