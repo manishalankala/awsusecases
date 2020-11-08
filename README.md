@@ -53,3 +53,9 @@ Go to create item --->name docker-ansible --> pipeline project
 ![image](https://user-images.githubusercontent.com/33985509/98481603-aabdb780-21fb-11eb-8dff-15ea0438e1e2.png)
 
 ![image](https://user-images.githubusercontent.com/33985509/98481626-d771cf00-21fb-11eb-83b7-860aa77f059f.png)
+
+so here we are adding the credentials linking jenkins to access github
+
+click generate pipeline script
+
+![image](https://user-images.githubusercontent.com/33985509/98481710-67b01400-21fc-11eb-9b7e-75655792ed3f.png)
