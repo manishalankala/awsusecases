@@ -5,6 +5,25 @@
 https://k3s.io/
 
 
+K3s is officially supported and tested on the following operating systems and their subsequent non-major releases:
+
+Ubuntu 16.04 (amd64)
+Ubuntu 18.04 (amd64)
+Raspbian Buster*
+
+Hardware requirements scale based on the size of your deployments. Minimum recommendations are outlined here.
+
+RAM: 512MB Minimum (we recommend at least 1GB)
+CPU: 1 Minimum
+
+
+PROTOCOL	PORT	SOURCE	DESCRIPTION
+------| ------ | ---------
+TCP	| 6443 | 	K3s agent nodes	| Kubernetes API
+UDP |	8472	| K3s server and agent nodes	| Required only for Flannel VXLAN
+TCP	| 10250	| K3s server and agent nodes| kubelet
+
+
 # AWS Freertos
 
 https://aws.amazon.com/freertos/
@@ -108,4 +127,48 @@ show databases;
 
 create DATABASE k3s;
 
+* K3S_DATASTORE_ENDPOINT = Specify a PostgresSQL, MySQL, or etcd connection string. This is a string used to describe the connection to the datastore. The structure of this string is specific to each backend and is detailed below.
+
+
 export K3S_DATASTORE_ENDPOINT='mysql://k3s:password@tcp(k3sdb.cc5prv9jqd9.us-east-1.rds.amazonaws.com:3306)/k3s'
+
+By default it write the below
+
+* --write-kubeconfig value, -o value         (client) Write kubeconfig for admin client to this file [$K3S_KUBECONFIG_OUTPUT]
+
+* --write-kubeconfig-mode value              (client) Write kubeconfig with this mode [$K3S_KUBECONFIG_MODE]
+
+
+
+curl -sfL https://get.k3s.io | INSTALL_K3S_EXEC="--write-kubeconfig=/opt/.kube/config --write-kubeconfig-mode=644" sh -
+
+systemctl status k3s
+
+kubectl get nodes
+
+sudo -i
+
+kubectl get ns
+
+kubectl get pods -n kube-system
+
+cd /var/lib/rancher
+
+cd k3s
+
+cd server
+
+cat token
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx:server:xxxxxxxxxxxxxxxxxxxxx
+
+Got to worker nodes(k3s-worker01, k3s-worker02, k3s-worker03 )
+
+
+sudo -i
+
+export K3S_URL=https://172.10.12.23:6443 (this was the private ip of k3s-master)
+
+
+export K3S_TOKEN=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx:server:xxxxxxxxxxxxxxxxxxxxx
+
