@@ -16,12 +16,8 @@ Hardware requirements scale based on the size of your deployments. Minimum recom
 RAM: 512MB Minimum (we recommend at least 1GB)
 CPU: 1 Minimum
 
+![image](https://user-images.githubusercontent.com/33985509/98454261-e22c5580-2162-11eb-95f2-ba5d4ec0a0e3.png)
 
-PROTOCOL	PORT	SOURCE	DESCRIPTION
------- | ------ | --------- |-------
-TCP	| 6443 | K3s agent nodes	| Kubernetes API
-UDP |	8472	| K3s server and agent nodes	| Required only for Flannel VXLAN
-TCP	| 10250	| K3s server and agent nodes| kubelet
 
 
 # AWS Freertos
