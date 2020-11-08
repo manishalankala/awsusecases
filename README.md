@@ -41,3 +41,15 @@ Go to Manage jenkins ----> Manage Plugins
 
 install without restart
 
+Go to Manage Jenkins ---> Global configuration
+
+![image](https://user-images.githubusercontent.com/33985509/98481375-09823180-21fa-11eb-8b82-4013e7927960.png)
+
+
+Go to create item --->name docker-ansible --> pipeline project 
+
+![image](https://user-images.githubusercontent.com/33985509/98481540-4d296b00-21fb-11eb-8701-29dcb7d7fdda.png)
+
+![image](https://user-images.githubusercontent.com/33985509/98481603-aabdb780-21fb-11eb-8dff-15ea0438e1e2.png)
+
+![image](https://user-images.githubusercontent.com/33985509/98481626-d771cf00-21fb-11eb-83b7-860aa77f059f.png)
