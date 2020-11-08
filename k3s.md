@@ -8,12 +8,15 @@ https://k3s.io/
 K3s is officially supported and tested on the following operating systems and their subsequent non-major releases:
 
 Ubuntu 16.04 (amd64)
+
 Ubuntu 18.04 (amd64)
+
 Raspbian Buster*
 
 Hardware requirements scale based on the size of your deployments. Minimum recommendations are outlined here.
 
 RAM: 512MB Minimum (we recommend at least 1GB)
+
 CPU: 1 Minimum
 
 ![image](https://user-images.githubusercontent.com/33985509/98454261-e22c5580-2162-11eb-95f2-ba5d4ec0a0e3.png)
