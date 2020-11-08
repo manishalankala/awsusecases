@@ -4,17 +4,28 @@
 
 
 
-Required 
+# Required 
 
+```
 aws access
 
-Roles:
-AmazonSSMFullAccess
-AmazonRoute53DomainsFullAccess
-AmazonRoute53AutoNamingFullAccess
+awscli
+
+kops
 
 Ec2
 Ubuntu instance
+
+Roles:
+AmazonSSMFullAccess
+
+AmazonRoute53DomainsFullAccess
+
+AmazonRoute53AutoNamingFullAccess
+
+
+
+```
 
 
 
