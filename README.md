@@ -20,6 +20,10 @@ sudo apt-get update
 
 sudo apt-get upgrade -y
 
+sudo apt-get docker -y
+
+usermod -aG docker jenkins
+
 sudo apt-get install python -y
 
 sudo apt install ansible -y or sudo amazon-linux-extras install ansible2
@@ -59,3 +63,56 @@ so here we are adding the credentials linking jenkins to access github
 click generate pipeline script
 
 ![image](https://user-images.githubusercontent.com/33985509/98481710-67b01400-21fc-11eb-9b7e-75655792ed3f.png)
+
+Build now
+
+if we get maven command not found
+
+the go to pipeline syntax then  Declarative Directive generator
+
+
+![image](https://user-images.githubusercontent.com/33985509/98481909-02f5b900-21fe-11eb-8a1d-a3f5e4e6dac4.png)
+
+
+add as maven
+
+click generate Declarative Directive 
+
+add this below under pipeline script  under agent any
+
+tools {
+ maven 'maven3'
+}
+
+
+
+Now we try to add one more stage in script
+
+stage('Docker Build'){
+     steps{
+         sh "docker build . -t manishalankala/app:0.0.1 ." or sh "docker build . -t manishalankala/app:${DOCKER_TAG}"
+      }
+ }
+ 
+ def getVersion(){
+     def commitHash = sh label: '',returnStdout: true,script:'git rev-parse --short HEAD'
+     return commitHash
+ }
+ 
+
+
+
+![image](https://user-images.githubusercontent.com/33985509/98482089-2bca7e00-21ff-11eb-9e72-ebc4a1823459.png)
+
+
+![image](https://user-images.githubusercontent.com/33985509/98482156-c3c86780-21ff-11eb-9fb5-716663bcfbcb.png)
+
+environment {
+    Docker_TAG = "getversion()"
+}
+
+
+service jenkins restart
+
+service docker restart
+
