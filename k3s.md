@@ -1,5 +1,9 @@
 
 
+# k3s
+
+https://k3s.io/
+
 
 # AWS Freertos
 
@@ -79,3 +83,29 @@ https://mqtt.org/
 
 
 VPC is default and autoscaling off
+
+
+# Steps
+
+
+Go to k3s-master
+
+apt update -y
+
+apt upgrade -y
+
+apt install mysql-client -y
+
+
+copy the rds endpoint name and give as below in k3s-master
+
+mysql -h k3sdb.cc5prv9jqd9.us-east-1.rds.amazonaws.com -u k3s -p
+
+and enter sql password
+
+
+show databases;
+
+create DATABASE k3s;
+
+export K3S_DATASTORE_ENDPOINT='mysql://k3s:password@tcp(k3sdb.cc5prv9jqd9.us-east-1.rds.amazonaws.com:3306)/k3s'
