@@ -143,9 +143,12 @@ export K3S_TOKEN=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx:server:xxxxxxxxxxxx
 
 curl -sfL https://get.k3s.io | sh -
 
-Systemctl status k3s-agent
+systemctl status k3s-agent
 
-go to k3s-master 
+go to k3s-master
+
+watch kubectl get nodes
+
 
 mysql -h k3sdb.cc5prv9jqd9.us-east-1.rds.amazonaws.com -u k3s -p
 
@@ -156,6 +159,8 @@ use k3s;
 
 show tables;
 
+
+jenkins.yaml
 
 ```
 
@@ -214,6 +219,46 @@ spec:
   type: NodePort
   
   ```
+  
+  
+kubectl get sc
+
+kubectl get all
+
+kubectl apply -f jenkins.yaml
+
+kubectl get all pv,pvc
+
+kubectl logs -f podname/jenkins-xxxxxx-xxxxxx
+
+service/kubernetes ClusterIP 10.43.0.1    443/TCP 
+
+service/jenkins-svc nodeport 10.43.221.36 80:31400/TCP
+
+go to browser 
+
+http://awspublicip:31400
+
+
+jenkins data is stored in 
+
+cd /var/lib/rancher/k3s/manifests
+
+cd /var/lib/rancher/k3s/storage
+
+kubectl get pods -o wide (in case if we don't find in above path this helps the pod on which node)
+
+so we can find pvc-xxxxxx-xxxx-xxxxx-xxxxx
+
+cd pvc-xxxxxx-xxxx-xxxxx-xxxxx (here the files,config files ..etc of jenkins is present)
+
+kubectl get pvc
+
+
+
+
+  
+  
   
   
   # Reference screen prints :
