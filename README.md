@@ -104,6 +104,7 @@ stage('Docker Build'){
 
 ![image](https://user-images.githubusercontent.com/33985509/98482089-2bca7e00-21ff-11eb-9e72-ebc4a1823459.png)
 
+check disable host ssh key check
 
 ![image](https://user-images.githubusercontent.com/33985509/98482156-c3c86780-21ff-11eb-9fb5-716663bcfbcb.png)
 
@@ -119,7 +120,7 @@ service docker restart
 
 
 
-ansible inventory file
+ansible Playbook file
 
 deploydocker.yml
 
@@ -148,9 +149,16 @@ deploydocker.yml
     - name: Start the container
       docker_container:
         name: hariapp
-        image: "kammana/hariapp:{{DOCKER_TAG}}"
+        image: "nodejscn/node:{{DOCKER_TAG}}"
         state: started
         published_ports:
           - 0.0.0.0:8080:8080
           
 ```
+
+Create inventory file
+
+deployinventory.ini
+
+[dev]
+172.31.34.192 ansible_user=ec2-user
