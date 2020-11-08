@@ -119,6 +119,12 @@ service docker restart
 
 
 
+![image](https://user-images.githubusercontent.com/33985509/98485490-11040380-2217-11eb-925c-850d3ddd2091.png)
+
+
+![image](https://user-images.githubusercontent.com/33985509/98485474-e7e37300-2216-11eb-93ec-5e6734ff7403.png)
+
+
 
 ansible Playbook file
 
@@ -171,7 +177,4 @@ run the build job
 open browser ip:8080/jenkinsitemname
 
 
-![image](https://user-images.githubusercontent.com/33985509/98485490-11040380-2217-11eb-925c-850d3ddd2091.png)
 
-
-![image](https://user-images.githubusercontent.com/33985509/98485474-e7e37300-2216-11eb-93ec-5e6734ff7403.png)
