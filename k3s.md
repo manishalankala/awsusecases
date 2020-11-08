@@ -168,3 +168,18 @@ export K3S_URL=https://172.10.12.23:6443 (this was the private ip of k3s-master)
 
 export K3S_TOKEN=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx:server:xxxxxxxxxxxxxxxxxxxxx
 
+curl -sfL https://get.k3s.io | sh -
+
+Systemctl status k3s-agent
+
+go to k3s-master 
+
+mysql -h k3sdb.cc5prv9jqd9.us-east-1.rds.amazonaws.com -u k3s -p
+
+and enter sql password
+
+
+use k3s;
+
+show tables;
+
