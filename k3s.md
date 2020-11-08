@@ -221,6 +221,77 @@ spec:
   ```
   
   
+  
+if its Gitlab
+
+gitlab.yaml
+
+
+```
+
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:
+  name: gitlab-claim
+spec:
+  storageClassName: local-path
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 2Gi
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+ name: gitlab
+spec:
+ replicas: 1
+ selector:
+   matchLabels:
+     app: gitlab-app
+ template:
+  metadata:
+   labels:
+    app: gitlab-app
+  spec:
+   securityContext:
+     fsGroup: 1001
+   containers:
+   - name: jenkins
+     imagePullPolicy: IfNotPresent
+     image: gitlab/gitlab-ce
+     ports:
+     - containerPort: 8081
+     volumeMounts:
+       - mountPath: /var/gitlab_home
+         name: gitlab-home
+   volumes:
+     - name: jenkins-home
+       persistentVolumeClaim:
+         claimName: gitlab-claim
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: gitlab-svc
+spec:
+  ports:
+    - port: 81
+      targetPort: 8081
+  selector:
+    app: jenkins-app
+  type: NodePort
+  
+
+
+
+
+```
+
+  
+  
+  
 kubectl get sc
 
 kubectl get all
