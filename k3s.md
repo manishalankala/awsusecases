@@ -20,40 +20,6 @@ CPU: 1 Minimum
 
 
 
-# AWS Freertos
-
-https://aws.amazon.com/freertos/
-
-
-# Aws Greengrass
-
-https://aws.amazon.com/greengrass/
-
-
-# AWS Iot Policies
-
-https://docs.aws.amazon.com/iot/latest/developerguide/iot-policies.html
-
-
-# Mqtt protocol
-
-https://mqtt.org/
-
-```
-1.Publish/Subscribe
-2.Messages
-3.Topics
-4.Broker
-
-```
-
-
-
-
-
-
-
-
 # Ec2
 
 ![image](https://user-images.githubusercontent.com/33985509/98452583-e51e4a80-2150-11eb-9764-b5ee34fc6e66.png)
@@ -343,11 +309,42 @@ kubectl get pvc
 
 
 
+# Reference:
+
+
+
+
+
+# AWS Freertos
+
+https://aws.amazon.com/freertos/
+
+
+# Aws Greengrass
+
+https://aws.amazon.com/greengrass/
+
+
+# AWS Iot Policies
+
+https://docs.aws.amazon.com/iot/latest/developerguide/iot-policies.html
+
+
+# Mqtt protocol
+
+https://mqtt.org/
+
+```
+1.Publish/Subscribe
+2.Messages
+3.Topics
+4.Broker
+
+```
   
   
   
-  
-  # Reference screen prints :
+# Reference screen prints :
 
 
 ![image](https://user-images.githubusercontent.com/33985509/98452431-97551280-214f-11eb-84a5-d38d3a4620de.png)
