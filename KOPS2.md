@@ -1,5 +1,7 @@
 
 
+# VPC
+
 Create VPC
 
 VPC with a CIDR block - 10.0.0.0/16
@@ -30,7 +32,7 @@ aws ec2 modify-vpc-attribute --vpc-id <VPC_ID> --enable-dns-hostnames "{\"Value\
 
 aws ec2 create-internet-gateway --region eu-west-1
 
-# Attach internet gateway to vpc
+# Attach Internet gateway to vpc
 
 aws ec2 attach-internet-gateway --internet-gateway-id <INTERNET_GATEWAY_ID> --vpc-id <VPC_ID> --region eu-west-1
 
@@ -159,4 +161,5 @@ subnets: - id: subnet-0e89f256 egress: nat-0b80a9c336c8e4e4b name: eu-west-1a ty
 kops update cluster ${NAME} --yes
 
 the cluster will only be accessible from within AWS
+
 kops update cluster ${NAME}
