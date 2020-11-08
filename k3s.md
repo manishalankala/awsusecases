@@ -18,7 +18,7 @@ CPU: 1 Minimum
 
 
 PROTOCOL	PORT	SOURCE	DESCRIPTION
-------| ------ | ---------
+------| ------ | --------- |
 TCP	| 6443 | 	K3s agent nodes	| Kubernetes API
 UDP |	8472	| K3s server and agent nodes	| Required only for Flannel VXLAN
 TCP	| 10250	| K3s server and agent nodes| kubelet
