@@ -13,6 +13,17 @@ vim myhosts.txt
 10.0.2.16 ansible_ssh_user=root ansible_ssh_pass=Welcome@123
 10.0.3.16 ansible_ssh_user=root ansible_ssh_pass=Welcome@123
 
+[DevInstances]
+10.0.2.24 ansible_ssh_user=root ansible_ssh_pass=Welcome@123
+10.0.3.24 ansible_ssh_user=root ansible_ssh_pass=Welcome@123
+10.0.4.24 ansible_ssh_user=root ansible_ssh_pass=Welcome@123
+
+[TestInstances]
+172.0.1.16 ansible_ssh_user=root ansible_ssh_pass=Welcome@123
+172.0.2.16 ansible_ssh_user=root ansible_ssh_pass=Welcome@123
+172.0.3.16 ansible_ssh_user=root ansible_ssh_pass=Welcome@123
+
+
 ```
 
 
