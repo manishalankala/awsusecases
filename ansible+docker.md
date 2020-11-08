@@ -1,5 +1,20 @@
 
 
+# Required 
+
+ec2 instances
+
+Ansible
+
+python packages
+
+Docker
+
+
+
+
+
+
 
 
 touch myhosts.txt
