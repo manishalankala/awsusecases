@@ -1,10 +1,20 @@
 
 
+![image](https://user-images.githubusercontent.com/33985509/98471424-5b23bf80-21ec-11eb-9dda-6c8b6ffa3871.png)
+
 
 
 Required 
 
-Ubuntu ec2 instance
+aws access
+
+Roles:
+AmazonSSMFullAccess
+AmazonRoute53DomainsFullAccess
+AmazonRoute53AutoNamingFullAccess
+
+Ec2
+Ubuntu instance
 
 
 
