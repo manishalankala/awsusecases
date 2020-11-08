@@ -10,6 +10,23 @@ python packages
 
 Docker
 
+Jenkins Plugins :
+
+SSH Agent Plugin
+
+Workspace Cleanup Plugin
+
+Yet another Docker Plugin
+
+Docker plugin
+
+docker-build-step
+
+Github
+
+Build Pipeline plugin
+
+Command Agent Launcher Plugin
 
 
 
@@ -165,3 +182,8 @@ vim index.html
 
 
 ```
+
+
+To deploy 
+
+ansible-playbook playbook1.yml
