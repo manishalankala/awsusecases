@@ -197,15 +197,15 @@ spec:
  that would be the same port you will wish to send traffic from service via targetPort.
  
  
-# nodePort
+# NodePort
 
 The port on the node where external traffic will come in on or Listens external request on all worker nodes on nodeip:port and forward the request to port.
  
-# port 
+# Port 
 
 The port of this service or Internal cluster service port for container and listens incoming request from the nodeport and forward to targetPort.
 
-# targetPort
+# TargetPort
 
 The target port on the pod(s) to forward traffic to or Receive the request from port and forwards to container pod(port) where it's listening. even if you don't specify this will get by default assigned the same port numbers as port.
 
