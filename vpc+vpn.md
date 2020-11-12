@@ -1,5 +1,50 @@
 
 
+## VPN connection: 
+
+A secure connection between your on-premises equipment and your VPCs.
+
+## VPN tunnel:
+
+An encrypted link where data can pass from the customer network to or from AWS.
+
+Each VPN connection includes two VPN tunnels which you can simultaneously use for high availability.
+
+## Customer gateway: 
+
+An AWS resource which provides information to AWS about your customer gateway device.
+
+
+## Customer gateway device
+
+Customer gateway device: A physical device or software application on your side of the Site-to-Site VPN connection.
+
+
+## Virtual private gateway:
+
+The VPN concentrator on the Amazon side of the Site-to-Site VPN connection. You use a virtual private gateway or a transit gateway as the gateway for the Amazon side of the Site-to-Site VPN connection.
+
+
+## Transit gateway:
+
+ A transit hub that can be used to interconnect your VPCs and on-premises networks. You use a transit gateway or virtual private gateway as the gateway for the Amazon side of the Site-to-Site VPN connection.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Create VPC 
 
 CIDR - 10.0.0.0/26
