@@ -33,6 +33,12 @@ The VPN concentrator on the Amazon side of the Site-to-Site VPN connection. You 
 
 
 
+Note :
+
+Static routes per Amazon VPC Route Table - 100
+
+Amazon VPC Peering connections per Amazon VPC - 125
+
 
 
 
