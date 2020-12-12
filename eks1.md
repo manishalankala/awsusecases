@@ -37,7 +37,16 @@ Client Version: v1.16.8-eks-e16311
 
 
 
+
+Steps
+
+
+
+
+
 aws --version
+
+apt install awscli -y
 
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 
@@ -48,6 +57,8 @@ which aws
 sudo ./aws/install --bin-dir /usr/bin --install-dir /usr/bin/aws-cli --update
 
 aws --version
+
+![image](https://user-images.githubusercontent.com/33985509/101992777-f27da600-3cb5-11eb-89a8-2f23b2826f2b.png)
 
 aws configure
 
@@ -61,11 +72,14 @@ For Default output format, enter json.
 
 curl -o kubectl https://amazon-eks.s3.us-west-2.amazonaws.com/1.16.8/2020-04-16/bin/linux/amd64/kubectl
 
+
 chmod +x ./kubectl
 
 mkdir -p $HOME/bin && cp ./kubectl $HOME/bin/kubectl && export PATH=$PATH:$HOME/bin
 
 kubectl version --short --client
+
+![image](https://user-images.githubusercontent.com/33985509/101992821-3c668c00-3cb6-11eb-875c-f486c0c61607.png)
 
 curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -s)_amd64.tar.gz" | tar xz -C /tmp
 
@@ -73,7 +87,69 @@ sudo mv /tmp/eksctl /usr/bin
 
 eksctl version
 
+![image](https://user-images.githubusercontent.com/33985509/101992846-57390080-3cb6-11eb-8560-4ea970d451e6.png)
+
+
+
+touch nginx-svc.yaml
+
+vi nginx-svc.yaml
+
+```
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx-svc
+  labels:
+    env: dev
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+  selector:
+    env: dev
+
+```
+
+
+
+
+touch nginx-deployment.yaml
+
+vi nginx-deployment.yaml
+
+```
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment
+  labels:
+    env: dev
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      env: dev
+  template:
+    metadata:
+      labels:
+        env: dev
+    spec:
+      containers:
+      - name: nginx
+        image: nginx
+        ports:
+        - containerPort: 80
+
+
+```
+
+
 eksctl create cluster --name dev --version 1.16 --region us-east-1 --nodegroup-name standard-workers --node-type t3.micro --nodes 3 --nodes-min 1 --nodes-max 4 --managed
+
+![image](https://user-images.githubusercontent.com/33985509/101993460-4343cd80-3cbb-11eb-8502-54bde0fc9a1e.png)
+
+
 
 eksctl get cluster
 
