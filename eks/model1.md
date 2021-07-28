@@ -56,6 +56,10 @@ For Default output format, enter json.
 
 
 
+
+
+
+
 https://docs.aws.amazon.com/eks/latest/userguide/install-kubectl.html
 
 curl -o kubectl https://amazon-eks.s3.us-west-2.amazonaws.com/1.19.6/2021-01-05/bin/linux/amd64/kubectl
