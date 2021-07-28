@@ -84,6 +84,7 @@ kubectl version --short --client =  v1.19.6-eks-49a6c0
 eksctl create cluster --name dev --version 1.19 --region us-east-1 --nodegroup-name standard-workers --node-type t3.micro --nodes 3 --nodes-min 1 --nodes-max 4 --managed
 
 
+eksctl utils describe-stacks --region=us-east-1 --cluster=dev'
 
 eksctl get cluster
 
