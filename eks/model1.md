@@ -75,6 +75,7 @@ sudo mv /tmp/eksctl /usr/bin
 
 eksctl version
 
+kubectl version --short --client
 
 eksctl version = 0.58.0
 
