@@ -39,6 +39,23 @@ unzip awscliv2.zip
 
 sudo ./aws/install --bin-dir /usr/bin --install-dir /usr/bin/aws-cli --update
 
+
+
+
+Configure the CLI:
+
+aws configure
+
+For AWS Access Key ID, paste in the access key ID you copied earlier.
+
+For AWS Secret Access Key, paste in the secret access key you copied earlier.
+
+For Default region name, enter us-east-1.
+
+For Default output format, enter json.
+
+
+
 https://docs.aws.amazon.com/eks/latest/userguide/install-kubectl.html
 
 curl -o kubectl https://amazon-eks.s3.us-west-2.amazonaws.com/1.19.6/2021-01-05/bin/linux/amd64/kubectl
