@@ -25,6 +25,8 @@ AKIA2ICVEGXSBPPLKWNG - k8s-admin
 AKIA2ICVEGXSB4A5MZP3 - k8s-admin2
 
 
+aws configure
+
 EC2 Instance and Configuring the Command Line Tools
 
 launch an ami instance of free tier t2micro 
