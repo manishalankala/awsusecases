@@ -73,6 +73,9 @@ curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/d
 
 sudo mv /tmp/eksctl /usr/bin
 
+eksctl version
+
+
 eksctl version = 0.58.0
 
 kubectl version --short --client =  v1.19.6-eks-49a6c0
