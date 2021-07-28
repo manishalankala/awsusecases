@@ -307,3 +307,9 @@ kubectl get node
 
 ![image](https://user-images.githubusercontent.com/33985509/127406671-2172b505-b0ee-48ed-8fbe-d8dcd2131a31.png)
 
+
+![image](https://user-images.githubusercontent.com/33985509/127407077-33ecdf37-033d-4a1c-8184-356a271f6492.png)
+
+curl a75353fa661264c3ca936915372271e6-2010126261.us-east-1.elb.amazonaws.com
+
+http://a75353fa661264c3ca936915372271e6-2010126261.us-east-1.elb.amazonaws.com/
