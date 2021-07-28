@@ -36,3 +36,67 @@ sudo ./aws/install --bin-dir /usr/bin --install-dir /usr/bin/aws-cli --update
 https://docs.aws.amazon.com/eks/latest/userguide/install-kubectl.html
 
 curl -o kubectl https://amazon-eks.s3.us-west-2.amazonaws.com/1.19.6/2021-01-05/bin/linux/amd64/kubectl
+
+chmod +x ./kubectl
+
+
+mkdir -p $HOME/bin && cp ./kubectl $HOME/bin/kubectl && export PATH=$PATH:$HOME/bin
+
+kubectl version --short --client
+
+curl --silent --location "https://github.com/weaveworks/eksctl/releases/latest/download/eksctl_$(uname -s)_amd64.tar.gz" | tar xz -C /tmp
+
+sudo mv /tmp/eksctl /usr/bin
+
+eksctl version = 0.58.0
+
+kubectl version --short --client =  v1.19.6-eks-49a6c0
+
+eksctl create cluster --name dev --version 1.19 --region us-east-1 --nodegroup-name standard-workers --node-type t3.micro --nodes 3 --nodes-min 1 --nodes-max 4 --managed
+
+
+
+eksctl get cluster
+
+aws eks update-kubeconfig --name dev --region us-east-1
+
+sudo yum install -y git
+
+git clone https://github.com/ACloudGuru-Resources/Course_EKS-Basics
+
+cd Course_EKS-Basics
+
+cat nginx-deployment.yaml
+
+cat nginx-svc.yaml
+
+kubectl apply -f ./nginx-svc.yaml
+
+kubectl get service
+
+kubectl apply -f ./nginx-deployment.yaml
+
+kubectl get deployment
+
+kubectl get pod
+
+kubectl get rs
+
+kubectl get node
+
+curl "<LOAD_BALANCER_EXTERNAL_IP>"
+
+
+kubectl get node
+
+kubectl get pod
+
+kubectl get node
+
+kubectl get pod
+
+kubectl get service
+
+curl "<LOAD_BALANCER_EXTERNAL_IP>"
+
+eksctl delete cluster dev
