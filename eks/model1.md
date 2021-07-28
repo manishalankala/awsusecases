@@ -303,3 +303,7 @@ kubectl get node
 
 
 ~~~
+
+
+![image](https://user-images.githubusercontent.com/33985509/127406671-2172b505-b0ee-48ed-8fbe-d8dcd2131a31.png)
+
