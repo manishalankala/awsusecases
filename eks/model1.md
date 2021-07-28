@@ -26,3 +26,13 @@ AKIA2ICVEGXSB4A5MZP3 - k8s-admin2
 
 
 EC2 Instance and Configuring the Command Line Tools
+
+launch an ami instance of free tier t2micro 
+
+aws --version
+
+sudo ./aws/install --bin-dir /usr/bin --install-dir /usr/bin/aws-cli --update
+
+https://docs.aws.amazon.com/eks/latest/userguide/install-kubectl.html
+
+curl -o kubectl https://amazon-eks.s3.us-west-2.amazonaws.com/1.19.6/2021-01-05/bin/linux/amd64/kubectl
