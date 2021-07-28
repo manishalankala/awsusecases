@@ -33,6 +33,10 @@ launch an ami instance of free tier t2micro
 
 aws --version
 
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+
+unzip awscliv2.zip
+
 sudo ./aws/install --bin-dir /usr/bin --install-dir /usr/bin/aws-cli --update
 
 https://docs.aws.amazon.com/eks/latest/userguide/install-kubectl.html
