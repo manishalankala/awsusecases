@@ -2,6 +2,17 @@
 
 
 
+
+![image](https://user-images.githubusercontent.com/33985509/127530481-d64145c0-a053-44cf-b906-cd3e8fcbab05.png)
+
+
+![image](https://user-images.githubusercontent.com/33985509/127530626-1145a2c4-91b4-4c8b-ac09-6f04362701ad.png)
+
+
+
+![image](https://user-images.githubusercontent.com/33985509/127530696-233a9ca0-5400-4f2b-90c2-227b56b9af76.png)
+
+
 ~~~
 Create the Transit Gateway
 Navigate to Services.
