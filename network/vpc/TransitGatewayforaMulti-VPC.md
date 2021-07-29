@@ -33,6 +33,9 @@
 ![image](https://user-images.githubusercontent.com/33985509/127533133-c587547a-b482-4081-a26b-1e99e7367c15.png)
 
 
+![image](https://user-images.githubusercontent.com/33985509/127533534-a3dd216a-4de5-4130-a04c-cbb2d6513c92.png)
+
+
 ~~~
 Create the Transit Gateway
 Navigate to Services.
