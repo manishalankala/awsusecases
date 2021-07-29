@@ -15,6 +15,22 @@
 ![image](https://user-images.githubusercontent.com/33985509/127530834-c78b60ae-cccd-45f4-8bff-d5815e245dd1.png)
 
 
+![image](https://user-images.githubusercontent.com/33985509/127531054-1e5eb8f7-19d1-4d1d-8646-b8ee6e185c47.png)
+
+
+![image](https://user-images.githubusercontent.com/33985509/127531376-fe6c1d58-2590-44d5-8526-cde5734d00fb.png)
+
+
+![image](https://user-images.githubusercontent.com/33985509/127531494-7fd1cfbf-8a31-4249-9001-b325ad6d0afe.png)
+
+
+![image](https://user-images.githubusercontent.com/33985509/127531882-4f87a6be-1c78-4450-884b-26cbc5f4c5cf.png)
+
+
+![image](https://user-images.githubusercontent.com/33985509/127532556-3181b33f-fbe6-423c-b4cc-27f8147f5827.png)
+
+
+
 ~~~
 Create the Transit Gateway
 Navigate to Services.
