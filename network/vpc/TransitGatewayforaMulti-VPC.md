@@ -39,10 +39,22 @@
 ![image](https://user-images.githubusercontent.com/33985509/127533821-6f25284c-aa14-459c-8301-fbd395911139.png)
 
 
+for PublicRT1 =  add vpc2 cidr + Transit gateway
+
 ![image](https://user-images.githubusercontent.com/33985509/127533974-b49404db-f04d-41ad-9cc6-6c02f41a1b01.png)
 
 
 ![image](https://user-images.githubusercontent.com/33985509/127534254-e08c9c4b-fe1b-4dd1-ad3a-e41a9021577c.png)
+
+
+for PublicRT2 =  add vpc2 cidr + Transit gateway
+
+![image](https://user-images.githubusercontent.com/33985509/127534680-7ca9e001-c356-4edb-8219-6a41d4ed9b98.png)
+
+
+
+
+
 
 
 ~~~
