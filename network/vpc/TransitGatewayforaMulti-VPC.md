@@ -53,6 +53,15 @@ for PublicRT2 =  add vpc2 cidr + Transit gateway
 
 
 
+To Test
+
+
+![image](https://user-images.githubusercontent.com/33985509/127535654-08950875-946a-4d16-8726-cd1cb65d4aac.png)
+
+
+
+
+
 
 
 
