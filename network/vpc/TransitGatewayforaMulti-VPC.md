@@ -30,6 +30,8 @@
 ![image](https://user-images.githubusercontent.com/33985509/127532556-3181b33f-fbe6-423c-b4cc-27f8147f5827.png)
 
 
+![image](https://user-images.githubusercontent.com/33985509/127533133-c587547a-b482-4081-a26b-1e99e7367c15.png)
+
 
 ~~~
 Create the Transit Gateway
